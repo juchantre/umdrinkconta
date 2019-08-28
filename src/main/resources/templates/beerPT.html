@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head th:replace="fragments/headFragment.html :: head">
+	<meta charset="UTF-8">
+</head>
+
+<body id="page-top">
+
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger text-white" th:href="@{/Home/Beer/en}">English <image th:src="@{/img/united-states.png}" height="30px" /></a>
+		</div>
+	</nav>
+
+	<!-- Masthead -->
+    <header class="masthead background-beer">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <h2 class="text-uppercase text-white">
+                    	O álcool demora 10 segundos para atravessar a placenta
+                    </h2>	
+                   	<h1 class="text-uppercase text-white">
+                    	<span class="font-weight-bold">e uma vida inteira de efeitos no seu bebê.</span>
+                    </h1>
+                    <hr class="divider my-4">
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-white-75 font-weight-light mb-5">Se você suspeita de gravidez, não beba, um drink conta!</p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" th:href="@{/Home/pt}">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Footer -->
+    <footer th:replace="fragments/footerFragment.html :: footer"></footer>
+
+</body>
+
+</html>
