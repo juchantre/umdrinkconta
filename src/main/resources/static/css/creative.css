@@ -10776,3 +10776,7 @@ header.masthead h1 {
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
 }
+
+.text-exp{
+  font-size: 1.2rem !important;
+}
